@@ -8,7 +8,7 @@ bin1 = 0
 gamma = ''
 delta = ''
 
-for i in range(len(diagbin[1])):
+for i in range(len(diagbin[1])-1):
     for x in range(len(diagbin)):
         line = str(diagbin[x])
         if line[i] == '1':
